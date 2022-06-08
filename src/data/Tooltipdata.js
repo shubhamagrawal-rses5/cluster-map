@@ -33,12 +33,12 @@ function getRandomLatLng() {
   );
 }
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 1000; i++) {
   let obj = {
     name: getRandomString(),
     values: {
       insights: getRandomInt(0, 1000),
-      mentions: getRandomInt(0, 10000),
+      mentions: getRandomInt(0, 1000),
       rating: getRandomInt(0, 5),
     },
     position: getRandomLatLng(),

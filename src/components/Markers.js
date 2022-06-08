@@ -15,7 +15,7 @@ export default function Markers() {
       {data.map((marker,index) => {
         return (
           <div key={index}>
-            <Marker position={marker.position}>
+            <Marker position={marker.position} marker={marker}>
               <Tooltip interactive={true} opacity={1}> 
                 <SingleTooltip marker={marker}></SingleTooltip>
               </Tooltip>

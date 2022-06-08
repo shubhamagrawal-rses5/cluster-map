@@ -1,17 +1,39 @@
-.mycluster {
-    width: 40px;
-    height: 40px;
-    background-color: greenyellow;
-    text-align: center;
-    font-size: 24px;
-  }
-  .custom-marker-cluster{
-    background: #ffffff;
-    border: 15px solid #f00800;
-    border-radius: 50%;
-    color: #000000;
-    height: 33px;
-    line-height: 37px;
-    text-align: center;
-    width: 33px;
-  }  
+.markerClusterSmall {
+  background-color: rgba(110, 204, 57, 0.6);
+  height: 40px;
+  width: 40px;
+
+  border-radius: 50%;
+  font-size: 0.8vw;
+  border: 3px solid rgba(111, 204, 57, 0.974);
+}
+.markerClusterMedium {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(240, 194, 12, 0.6);
+  border-radius: 50%;
+  font-size: 0.8vw;
+  border: 3px solid rgba(240, 194, 12, 0.974);
+}
+.markerClusterLarge {
+  background-color: rgba(241, 128, 23, 0.6);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  font-size: 0.8vw;
+  border: 3px solid rgba(241, 128, 23, 0.974);
+}
+.markerClusterLargeXL {
+  background-color: rgba(241, 128, 23, 0.6);
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  font-size: 0.8vw;
+  border: 3px solid rgba(241, 128, 23, 0.974);
+}
+.markerClusterLabel {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
