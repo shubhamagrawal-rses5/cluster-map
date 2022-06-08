@@ -32,7 +32,7 @@ export default function Mymap() {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
        
-      <Markercluster/>
+      {/* <Markercluster/> */}
       <Markers/>
     </MapContainer>
   );
