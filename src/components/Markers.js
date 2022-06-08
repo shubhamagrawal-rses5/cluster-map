@@ -1,9 +1,11 @@
 import React from "react";
 import { Marker, Popup, Tooltip } from "react-leaflet";
+import 'leaflet/dist/leaflet.css'; 
+import "./style.css";
 import data from "./../data/Tooltipdata";
 import Dropdown from "./Dropdown";
 import SingleTooltip from "./SingleTooltip";
-import "./style.css";
+
 
 export default function Markers() {
   //console.log(data);
@@ -14,10 +16,10 @@ export default function Markers() {
         return (
           <div key={index}>
             <Marker position={marker.position}>
-              <Tooltip className='tooltip-menu'>
+              <Tooltip interactive={true} opacity={1}> 
                 <SingleTooltip marker={marker}></SingleTooltip>
               </Tooltip>
-              <Popup className="Dropdown" closeButton={false}>
+              <Popup closeButton={false}>
                 <Dropdown marker={marker}></Dropdown>
               </Popup>
             </Marker>

@@ -1,11 +1,12 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker} from "react-leaflet";
+import 'leaflet/dist/leaflet.css'; 
+import 'react-leaflet-markercluster/dist/styles.min.css';
+
 import L from "leaflet";
 import Markers from "./Markers";
 import Markercluster from "./Markercluster";
 
-import 'leaflet/dist/leaflet.css'; 
-import 'react-leaflet-markercluster/dist/styles.min.css';
 
 
 

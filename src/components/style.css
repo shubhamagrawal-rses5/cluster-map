@@ -1,13 +1,14 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.tooltip-menu {
-  background-color: yellow;
+.leaflet-tooltip {
   border-radius: 10px;
-  border: 2px solid red;
 }
-.Dropdown {
-  border-radius: 7px;
+.leaflet-tooltip-pane {
+  z-index: 750;
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 10px;
 }
 h2 {
   margin: 5px;
