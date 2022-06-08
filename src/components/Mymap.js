@@ -1,10 +1,8 @@
 import React from "react";
-import { MapContainer, TileLayer, Marker} from "react-leaflet";
+import { MapContainer, TileLayer} from "react-leaflet";
 import 'leaflet/dist/leaflet.css'; 
 import 'react-leaflet-markercluster/dist/styles.min.css';
-
 import L from "leaflet";
-import Markers from "./Markers";
 import Markercluster from "./Markercluster";
 
 
@@ -24,8 +22,8 @@ export default function Mymap() {
     <MapContainer
       center={[51.505, -0.09]}
       style={{ height: "100vh", width: "100vw" }}
-      zoom={4}
-      // maxZoom={10}
+      zoom={1}
+      maxZoom={5}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -33,7 +31,6 @@ export default function Mymap() {
       />
        
       <Markercluster/>
-      {/* <Markers/> */}
     </MapContainer>
   );
 }
