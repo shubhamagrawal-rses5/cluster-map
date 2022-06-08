@@ -4,10 +4,9 @@ import L from "leaflet";
 import Markers from "./Markers";
 import Markercluster from "./Markercluster";
 
-import MarkerClusterGroup from "react-leaflet-markercluster";
 import 'leaflet/dist/leaflet.css'; 
 import 'react-leaflet-markercluster/dist/styles.min.css';
-import './Markercluster.css'
+
 
 
 delete L.Icon.Default.prototype._getIconUrl;

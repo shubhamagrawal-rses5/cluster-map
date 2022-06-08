@@ -1,0 +1,30 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tooltip-menu {
+  background-color: yellow;
+  border-radius: 10px;
+  border: 2px solid red;
+}
+.Dropdown {
+  border-radius: 7px;
+}
+h2 {
+  margin: 5px;
+}
+.box {
+  width: 15em;
+}
+tr {
+  margin: 10px 0px;
+}
+td {
+  width: 50em;
+}
+hr {
+  color: grey;
+}
+.value {
+  text-align: right;
+  font-weight: 600;
+}
