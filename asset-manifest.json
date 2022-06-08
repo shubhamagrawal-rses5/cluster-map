@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cluster-map/static/css/main.553dd0bc.css",
+    "main.js": "/cluster-map/static/js/main.b26dc656.js",
+    "static/js/787.374316cf.chunk.js": "/cluster-map/static/js/787.374316cf.chunk.js",
+    "index.html": "/cluster-map/index.html",
+    "main.553dd0bc.css.map": "/cluster-map/static/css/main.553dd0bc.css.map",
+    "main.b26dc656.js.map": "/cluster-map/static/js/main.b26dc656.js.map",
+    "787.374316cf.chunk.js.map": "/cluster-map/static/js/787.374316cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.553dd0bc.css",
+    "static/js/main.b26dc656.js"
+  ]
+}
