@@ -62,6 +62,7 @@ export default function Markercluster() {
         spiderfyOnMaxZoom={true}
         spiderfyDistanceMultiplier={1}
         showCoverageOnHover={false}
+        zoomToBoundsOnClick={false}
       >
         <Markers />
       </MarkerClusterGroup>

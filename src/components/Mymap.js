@@ -20,8 +20,8 @@ export default function Mymap() {
     <MapContainer
       center={[51.505, -0.09]}
       style={{ height: "100vh", width: "100vw" }}
-      zoom={1}
-      maxZoom={5}
+      zoom={2}
+      maxZoom={6}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
