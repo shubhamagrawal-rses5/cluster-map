@@ -37,8 +37,8 @@ for (let i = 0; i < 1000; i++) {
   let obj = {
     name: getRandomString(),
     values: {
-      insights: getRandomInt(0, 1000),
-      mentions: getRandomInt(0, 1000),
+      insights: getRandomInt(0, 100),
+      mentions: getRandomInt(0, 100),
       rating: getRandomInt(0, 5),
     },
     position: getRandomLatLng(),

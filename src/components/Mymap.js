@@ -6,8 +6,6 @@ import L from "leaflet";
 import Markercluster from "./Markercluster";
 
 
-
-
 delete L.Icon.Default.prototype._getIconUrl;
 
 L.Icon.Default.mergeOptions({
@@ -29,7 +27,7 @@ export default function Mymap() {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-       
+      
       <Markercluster/>
     </MapContainer>
   );

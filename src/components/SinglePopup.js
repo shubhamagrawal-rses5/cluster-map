@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css";
 
-export default function Dropdown(props) {
+export default function SinglePopup(props) {
     const marker = props.marker;
   return(
     <div className="box">
@@ -11,3 +11,5 @@ export default function Dropdown(props) {
   </div>
   )
 }
+
+//Popup (React-leaflet Component) for a single marker

@@ -27,3 +27,5 @@ export default function SingleTooltip(props) {
     </div>
   );
 }
+
+//Tooltip (React-leaflet Component) for a single marker
