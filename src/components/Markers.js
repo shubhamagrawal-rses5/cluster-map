@@ -15,7 +15,7 @@ export default function Markers() {
         return (
           <div key={index}>
             <Marker position={marker.position} marker={marker}>
-              <Tooltip interactive={true} opacity={1}> 
+              <Tooltip opacity={1}> 
                 <SingleTooltip marker={marker}></SingleTooltip>
               </Tooltip>
               <Popup closeButton={false}>

@@ -1,9 +1,10 @@
-import React from "react";
+import React ,{useState}from "react";
 import { MapContainer, TileLayer} from "react-leaflet";
 import 'leaflet/dist/leaflet.css'; 
 import 'react-leaflet-markercluster/dist/styles.min.css';
 import L from "leaflet";
 import Markercluster from "./Markercluster";
+// import { useState } from "react/cjs/react.production.min";
 
 
 delete L.Icon.Default.prototype._getIconUrl;
@@ -16,11 +17,12 @@ L.Icon.Default.mergeOptions({
 
 
 export default function Mymap() {
+  const [zoomLevel,setZoomLevel] =useState(3);
   return (
     <MapContainer
-      center={[51.505, -0.09]}
+      center={[30.505, 9.09]} //some random center
       style={{ height: "100vh", width: "100vw" }}
-      zoom={2}
+      zoom={zoomLevel}
       maxZoom={6}
     >
       <TileLayer
@@ -28,7 +30,7 @@ export default function Mymap() {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       
-      <Markercluster/>
+      <Markercluster zoomLevel = {zoomLevel} setZoomLevel={setZoomLevel}/>
     </MapContainer>
   );
 }
