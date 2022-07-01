@@ -33,7 +33,7 @@ function getRandomLatLng() {
   );
 }
 
-for (let i = 0; i < 3000; i++) {
+for (let i = 0; i < 6000; i++) {
   let obj = {
     name: getRandomString(),
     values: {
